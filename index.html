@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h2>Calculator</h2>
+	</header>
+	<section id="border">
+		<table>
+			<tr>
+				<td colspan="3"><input type="text" id="result"></td>
+				<td><input type="button" value="c" onclick="clear_result()"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="enter('1')"></td>
+				<td><input type="button" value="2" onclick="enter('2')"></td>
+				<td><input type="button" value="3" onclick="enter('3')"></td>
+				<td><input type="button" value="X" onclick="enter('*')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="enter('4')"></td>
+				<td><input type="button" value="5" onclick="enter('5')"></td>
+				<td><input type="button" value="6" onclick="enter('6')"></td>
+				<td><input type="button" value="-" onclick="enter('-')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="enter('1')"></td>
+				<td><input type="button" value="8" onclick="enter('2')"></td>
+				<td><input type="button" value="9" onclick="enter('3')"></td>
+				<td><input type="button" value="+" onclick="enter('+')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="." onclick="enter('.')"></td>
+				<td><input type="button" value="0" onclick="enter('5')"></td>
+				<td><input type="button" value="/" onclick="enter('/')"></td>
+				<td><input type="button" value="=" onclick="eval_result()"></td>
+			</tr>
+		</table>
+	</section>
+</body>
+</html>
